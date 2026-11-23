@@ -122,6 +122,7 @@ function offlineBundlePlugin(rootDir: string): Plugin {
 
 export default defineConfig(() => {
   return {
+    base: '/wav/',
     plugins: [
       react(),
       tailwindcss(),

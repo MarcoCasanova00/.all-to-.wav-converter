@@ -489,12 +489,15 @@ export default function App() {
       {/* 3-Zone Top Bar */}
       <header className="border-b border-[#1D212B] bg-[#0B0D11]/95 sticky top-0 z-30">
         <div className="max-w-[1360px] mx-auto px-6 h-16 flex items-center justify-between gap-8">
-          <a
-            href="#top"
-            className="text-base font-bold tracking-tight text-zinc-100 whitespace-nowrap shrink-0"
-          >
-            Electribe WAV Extractor
-          </a>
+          <div className="flex items-center gap-3 shrink-0">
+            <img src="/wav/electribe-logo.svg" alt="Korg Electribe" className="h-9 w-auto border border-[#3a4250] bg-[#0B0D11]" />
+            <a
+              href="#top"
+              className="text-base font-bold tracking-tight text-zinc-100 whitespace-nowrap"
+            >
+              Electribe WAV Extractor
+            </a>
+          </div>
 
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-400">
             <a
